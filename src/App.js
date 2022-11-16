@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
   const tempVar = 5;
+  var hello = 'hello';
   return (
     <div className="App">
       <header className="App-header">
