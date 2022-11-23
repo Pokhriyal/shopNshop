@@ -1,0 +1,403 @@
+{
+  "products": [{
+    "id": "6090e84ed060d60bf0b20a13",
+    "price": 500,
+    "ratings": 4,
+    "stock": 5,
+    "numOfReviews": 3,
+    "name": "Panasonic LUMIX G7 16.00 MP 4K Mirrorless Interchangeable Lens Camera Kit with 14-42 mm Lens (Black)",
+    "description": "PROFESSIONAL PHOTO AND VIDEO PERFORMANCE: 16 megapixel Micro Four Thirds sensor with no low pass filter to confidently capture sharp images with a high dynamic range and artifact free performance; WiFi enabled\n4K VIDEO CAPTURE: 4K QHD video recording (3840 x 2160) with three 4K Ultra HD capture at 25p and Full HD ( 1920 * 1080 ) at 50p\n4K PHOTO MODE : 8MP PHOTO BURST MODE at 30 fps, extracts individual high resolution images from 4K Ultra HD video filmed at 30 frames per second to capture split second moments\nINTUITIVE CONTROLS: Easily control aperture and shutter settings with the front and rear dials while making white balance and ISO adjustments on the fly; Assign favorite settings to any of the six function buttons (six on body, five on menu)\nHIGH RESOLUTION VIEWFINDER AND LCD DISPLAY: High resolution (2,360K dot) OLED Live View Finder and rear touch enabled 3 inch tilt/swivel LCD display (1,040 dot) are clear even in bright sunlight\nCONNECTIVITY AND PORTS: 3.5mm external mic port, 2.5mm remote port, USB 2.0 and micro HDMI Type D; Compatible with newer UHS I/UHS II SDXC/SDHC SD cards capable of storing high resolution 4K videos\nManufacturer Detail: Panasonic AVC Networks Xiamen Co. Ltd., Hi-Tech Industrial Development Zone, Xiamen, Fujian, China",
+    "category": "Cameras",
+    "seller": "amazon",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090e84ed060d60bf0b20a14"
+        },
+        "public_id": "products/o6evcuonvdwm01csho3b",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109378/products/o6evcuonvdwm01csho3b.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e84ed060d60bf0b20a15"
+        },
+        "public_id": "products/pxkydepstasggjgu3i9e",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109381/products/pxkydepstasggjgu3i9e.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e84ed060d60bf0b20a16"
+        },
+        "public_id": "products/vbqtkengc2vnlvxffypv",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109386/products/vbqtkengc2vnlvxffypv.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e84ed060d60bf0b20a17"
+        },
+        "public_id": "products/tet2wkom6stnfi9yhylm",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109391/products/tet2wkom6stnfi9yhylm.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "609244f0c8c8092e443d2612"
+        },
+        "user": {
+          "$oid": "60923c5c0ac27d1e38039ba8"
+        },
+        "name": "Raj Singh",
+        "rating": 3,
+        "comment": "i like this product ....\n"
+      },
+      {
+        "_id": {
+          "$oid": "609abb1a8c7a8e2274d2d506"
+        },
+        "user": {
+          "$oid": "609abae28c7a8e2274d2d505"
+        },
+        "name": "Naman Singh",
+        "rating": 5,
+        "comment": "good product ...\n"
+      },
+      {
+        "_id": {
+          "$oid": "61878a9487e67b2c980dc912"
+        },
+        "user": {
+          "$oid": "61877f0bfaae6008d458e0b2"
+        },
+        "name": "test_1",
+        "rating": 4,
+        "comment": "good"
+      }
+    ],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620109390653"
+      }
+    },
+    "__v": 3
+  },{
+    "id": "6090e9e8d060d60bf0b20a1d",
+    "price": 80,
+    "ratings": 3.5,
+    "stock": 23,
+    "numOfReviews": 2,
+    "name": "ESNINO Boys' T-Shirt (Pack of 5)",
+    "description": "Care Instructions: Do not bleach\nFit Type: Regular Fit\nWash Care: Do Not Bleach\nFabric Type: Cotton\nPattern name: Solid\nClosure Type: Pull On\nSleeve Type: Half Sleeve;",
+    "category": "Clothes/Shoes",
+    "seller": "Raja Clothes center",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090e9e8d060d60bf0b20a1e"
+        },
+        "public_id": "products/pbszbryrlwu2vmlevv4i",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109792/products/pbszbryrlwu2vmlevv4i.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e9e8d060d60bf0b20a1f"
+        },
+        "public_id": "products/t13rn4jgyv6hk9dxidwd",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109797/products/t13rn4jgyv6hk9dxidwd.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e9e8d060d60bf0b20a20"
+        },
+        "public_id": "products/odcukbsjuqkkoediwvo0",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620109801/products/odcukbsjuqkkoediwvo0.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "609e9d41adaba90004c184ac"
+        },
+        "user": {
+          "$oid": "609e9cf8adaba90004c184ab"
+        },
+        "name": "Atul",
+        "rating": 4,
+        "comment": "Excellent Quality"
+      },
+      {
+        "_id": {
+          "$oid": "61a20d6cfb55af00043d4a20"
+        },
+        "user": {
+          "$oid": "61a20bf2fb55af00043d4a1f"
+        },
+        "name": "dfgxf",
+        "rating": 3,
+        "comment": "gfhffg"
+      }
+    ],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620109800610"
+      }
+    },
+    "__v": 2
+  },{
+    "id": "6090ee34d060d60bf0b20a35",
+    "price": 5,
+    "ratings": 5,
+    "stock": 4,
+    "numOfReviews": 1,
+    "name": "XERGY Solar Fairy String Lights Outdoor, 39 Ft 120 LED with 800 mAh Inbuilt Rechargeable Batter IP65 Waterproof 8 Modes Copper Wire for Garden Yard Patio Christmas Tree Home Party Outdoor Decorative",
+    "description": "8 Modes and IP65 Waterproof8 light modes (Continuous Change; Wave Change; Flashing change; Change Flicker; Rapid Change; Low Speed Change; Dream Change; Fixed Lighting).Choose the lighting effect you prefer and create romantic atmosphere. [Splashing Waterproof]: Both the string lights and the solar panel are IP65 Waterproof. No worry to use them in the rain\nEasy to Shape and Install It's easy to decorate your space, flexible fairy lights can be easily built into the shapes you want,wrap it on bed, flowers, wreaths, Christmas trees and bouquets. it is able to create warming, sweet and romantic atmosphere, especially in festivals\nMulti-application scenarios39ft long string with 120 super bright LED , with steady 360 degree viewing angle which illuminate in every direction. These string lights are a great decorative accessory to illuminate indoor and outdoor spaces, like your gardens, driveway, fence, birthday , wedding, party, christmas trees , Diwali , NYE decoration\nEnergy-saving and Eco-friendly You don't have to pay costly electricity bills. During the day, the efficient solar panel converts the sunlight into electrical energy stored in the build-in 800 mAh rechargeable battery, then the string lights will automatically light up at night. Charge Time - 6-8 Hours, Work Time 8-12 Hours",
+    "category": "Outdoor",
+    "seller": "Raj Electronics",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090ee34d060d60bf0b20a36"
+        },
+        "public_id": "products/dgkvmcts3lcwyivvruot",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110891/products/dgkvmcts3lcwyivvruot.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ee34d060d60bf0b20a37"
+        },
+        "public_id": "products/rtwcmrz4hqygjv807sym",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110897/products/rtwcmrz4hqygjv807sym.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ee34d060d60bf0b20a38"
+        },
+        "public_id": "products/sipridnlaccrphs9fwhh",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110901/products/sipridnlaccrphs9fwhh.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "60bf399ee200550004cd7d7d"
+        },
+        "user": {
+          "$oid": "60bf16bd532a9700043c0420"
+        },
+        "name": "admin",
+        "rating": 5,
+        "comment": "good"
+      }
+    ],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620110900985"
+      }
+    },
+    "__v": 1
+  },{
+    "id": "6090ed57d060d60bf0b20a2d",
+    "price": 600,
+    "ratings": 0,
+    "stock": 1,
+    "numOfReviews": 0,
+    "name": "Klapp Champion Cricket Kit, Cricket Set",
+    "description": "Complete Kit bag for all age includes all the gear that you need\nAvailable in various sizes for different age groups\nBatting gloves - palm made from cotton and PVC\nPremium PVC finger rolls and dual density foam finger rolls\nSales Package: 1 Kashmir Willow Cricket Bat(Size 4),1 Pair Pad, 1 Pair batting Gloves,1 Cricket Helmet,1 Thigh Pad, 1 Arm Guard,1 Abdominal Guard & 1 Kit Bag",
+    "category": "Sports",
+    "seller": "Sharma Sports center",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090ed57d060d60bf0b20a2e"
+        },
+        "public_id": "products/m5dvkl8xedznei8frzzb",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110674/products/m5dvkl8xedznei8frzzb.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ed57d060d60bf0b20a2f"
+        },
+        "public_id": "products/szfo00nlkrapimtk6jri",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110677/products/szfo00nlkrapimtk6jri.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ed57d060d60bf0b20a30"
+        },
+        "public_id": "products/xnqhqlw7yf1lugvv8ycm",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620110680/products/xnqhqlw7yf1lugvv8ycm.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620110679545"
+      }
+    },
+    "__v": 0
+  },{
+    "id": "6090e3b8d060d60bf0b20a0a",
+    "price": 60,
+    "ratings": 4,
+    "stock": 0,
+    "numOfReviews": 1,
+    "name": "Zebronics Zeb-Transformer Gaming Keyboard and Mouse Combo (USB, Braided Cable)",
+    "description": "> Built To Frag\nZEB-TRANSFORMER keyboard and mouse comes with various features and design to help you game better. The keyboard comes with features like disable windows key, the mouse has high sensitivity with 3200DPI.\n\n> Multicolor LED Lights\nTake your gaming revolution to another level with the Transformer keyboard that comes with backlit LED lights. You can select any LED light modes from the 4 available modes, including one off mode.\n\n> Built To Frag\nZEB-TRANSFORMER keyboard and mouse comes with various features and design to help you game better. The keyboard comes with features like disable windows key, the mouse has high sensitivity with 3200DPI.\n\n",
+    "category": "Accessories",
+    "seller": "Raj Electronics",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090e3b8d060d60bf0b20a0b"
+        },
+        "public_id": "products/tjwgd2ghf6ubpp0cmn7d",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620108211/products/tjwgd2ghf6ubpp0cmn7d.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e3b8d060d60bf0b20a0c"
+        },
+        "public_id": "products/iekzhwpyk3lii0qct5wk",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620108214/products/iekzhwpyk3lii0qct5wk.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090e3b8d060d60bf0b20a0d"
+        },
+        "public_id": "products/zkmrnmmbuxfb7pjbkxn1",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620108217/products/zkmrnmmbuxfb7pjbkxn1.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "60bf383be200550004cd7d7c"
+        },
+        "user": {
+          "$oid": "60bf37b6e200550004cd7d77"
+        },
+        "name": "deepak singh",
+        "rating": 4,
+        "comment": "good"
+      }
+    ],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620108216937"
+      }
+    },
+    "__v": 1
+  },{
+    "id": "6090ef11d060d60bf0b20a3d",
+    "price": 250,
+    "ratings": 0,
+    "stock": 20,
+    "numOfReviews": 0,
+    "name": "SHOPP SHOPPINO Outdoor Aluminium Portable Folding Camp Suitcase Picnic Table with 4 Seats and Umbrella (Multicolour)",
+    "description": "◆ Available With 4 Chair,Fire-proof board MDF table, aluminum bench.Enjoy your evening parties and natural scenery with this restaurant table. This parlour table folds down and fit perfectly underneath the table top for easy storage and transportation. In folded form, it measures 85 x 33.5 x 10 cm (Length x Breadth x Height) which makes it compact to carry in a car\n◆ This multipurpose table and chair with carrying handle is perfect for indoor or outdoor barbecue treats, beach party, tailgating, picnics, and hiking. It can be used as a serving & dinning table also\n◆ Picnic Table is made of Aluminum alloy metal. Provided with 4 inbuilt chairs as integral part of a table, capable to withstand weight upto 120 Kgs on each chair. Table is fully collapsible and folding. Also, can be converted into a bag shape for easily carrying while travel. Supplied with 6.5' diameter size of Umbrella. Umbrella may be available in various prints and designs.\n◆ Dimensions : Table Size L-85 CM x B-67 CM x H-67 CM/ Chair Size L-85 CM x B-41 CM x H-40 CM ---Dimensions : Unfolded Size L-137 CM x B-82 CM x H-67 CM/ Folded Size L-85 CM x B-33.5 CM x H-10 CM.\n◆ Durable and quality made for years of use ,May be used outdoors or indoors,No assembly required",
+    "category": "Outdoor",
+    "seller": "ebay",
+    "images": [
+      {
+        "_id": {
+          "$oid": "6090ef11d060d60bf0b20a3e"
+        },
+        "public_id": "products/jtzvztbgl4wgaiwikfjp",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620111117/products/jtzvztbgl4wgaiwikfjp.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ef11d060d60bf0b20a3f"
+        },
+        "public_id": "products/pdyebfxbdxxzz6iplfou",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620111120/products/pdyebfxbdxxzz6iplfou.jpg"
+      },
+      {
+        "_id": {
+          "$oid": "6090ef11d060d60bf0b20a40"
+        },
+        "public_id": "products/gktwt7rz0pcwsmz58dpt",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1620111122/products/gktwt7rz0pcwsmz58dpt.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "608a6fe738b44d0a44114b7e"
+    },
+    "reviews": [],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1620111121808"
+      }
+    },
+    "__v": 0
+  },{
+    "id": "617815b6d7902500040a29cb",
+    "price": 100,
+    "ratings": 4,
+    "stock": 10,
+    "numOfReviews": 1,
+    "name": "test",
+    "description": "this this demo",
+    "category": "Laptops",
+    "seller": "test ",
+    "images": [
+      {
+        "_id": {
+          "$oid": "617815b6d7902500040a29cc"
+        },
+        "public_id": "products/x6rztuz5ydjdham0a9hs",
+        "url": "https://res.cloudinary.com/d-store/image/upload/v1635259830/products/x6rztuz5ydjdham0a9hs.jpg"
+      }
+    ],
+    "user": {
+      "$oid": "617814c8d7902500040a29ca"
+    },
+    "reviews": [
+      {
+        "_id": {
+          "$oid": "61781608d7902500040a29cd"
+        },
+        "user": {
+          "$oid": "6178136bd7902500040a29c6"
+        },
+        "name": "deepak19101999",
+        "rating": 4,
+        "comment": "this very good product"
+      }
+    ],
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1635259830904"
+      }
+    },
+    "__v": 1
+  }],
+  "carouselData": [
+    {
+      "id": "",
+      "name": "",
+      "url": "https://via.placeholder.com/400x300",
+      "details": [
+        {
+          "price": "",
+          "gutterspace": 3
+        }
+      ]
+    }
+  ]
+}

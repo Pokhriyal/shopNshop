@@ -1,29 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+// Auth or User imports
+import Login from './components/UserComponent/Login';
+import MasterLayout from './components/MasterLayout';
+import ErrorPage from './components/ErrorComponent';
+import ProductDetail from './components/ProductComponent/ProductDetail';
+import LanddingPageComponent from './components/LanddingPageComponent';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <MasterLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/default',
+        element: <LanddingPageComponent />,
+      },
+      {
+        path: '/product/:id',
+        element: <ProductDetail />,
+      },
+    ],
+  },
+  {
+    path: '/login',
+    element: <Login />,
+  },
+]);
 
 function App() {
   // const tempVar = 5;
   // var hello = '';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          <code>src/App.js</code>
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Hello
-        </a>
-      </header>
-    </div>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
   );
 }
 
