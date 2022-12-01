@@ -7,6 +7,7 @@ import MasterLayout from './components/MasterLayout';
 import ErrorPage from './components/ErrorComponent';
 import ProductDetail from './components/ProductComponent/ProductDetail';
 import LanddingPageComponent from './components/LanddingPageComponent';
+import AddCart from './components/ProductComponent/AddCart';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/product/:id',
         element: <ProductDetail />,
+      },
+      {
+        path: '/product/cart',
+        element: <AddCart />,
       },
     ],
   },

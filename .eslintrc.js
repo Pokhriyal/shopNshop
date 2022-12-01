@@ -24,5 +24,6 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'linebreak-style': 0,
   },
 };
