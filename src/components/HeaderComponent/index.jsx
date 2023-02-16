@@ -1,83 +1,147 @@
 import * as React from 'react';
-// import PropTypes from 'prop-types';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import SearchIcon from '@mui/icons-material/Search';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+// import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
+import Container from '@mui/material/Container';
+// import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+// import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
+// import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from 'react-router-dom';
+import logo from './Logo.svg';
 
-import Icon from '@mdi/react';
-import { mdiCartOutline } from '@mdi/js';
+const pages = [
+  { title: 'Cash Loan', url: '#' },
+  { title: 'Home Loan', url: '#' },
+  { title: 'Health Insurance', url: '#' },
+  { title: 'Mutual Fund', url: '#' },
+  { title: 'Calculators', url: '#' },
+  { title: 'Blogs', url: 'http://167.71.233.181:5656/', target: '_blank' },
+];
 
 function Header() {
-  const sections = [
-    { title: 'Technology', url: '#' },
-    { title: 'Design', url: '#' },
-    { title: 'Culture', url: '#' },
-    { title: 'Business', url: '#' },
-    { title: 'Politics', url: '#' },
-    { title: 'Opinion', url: '#' },
-    { title: 'Science', url: '#' },
-    { title: 'Health', url: '#' },
-    { title: 'Style', url: '#' },
-    { title: 'Travel', url: '#' },
-  ];
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
 
   return (
-    <>
-      <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Button size="small">Subscribe</Button>
-        <Typography
-          component="h2"
-          variant="h5"
-          color="inherit"
-          align="center"
-          noWrap
-          sx={{ flex: 1 }}
-        >
-          Main Title
-        </Typography>
-        <IconButton>
-          <SearchIcon />
-        </IconButton>
-        <IconButton sx={{ mr: 1 }}>
-          <Icon path={mdiCartOutline} title="Cart" size={1} />
-        </IconButton>
-        <Button variant="outlined" size="small">
-          Sign up
-        </Button>
-      </Toolbar>
-      <Toolbar
-        component="nav"
-        variant="dense"
-        sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
-      >
-        {sections.map((section) => (
-          <Link
-            color="inherit"
-            noWrap
-            key={section.title}
-            variant="body2"
-            href={section.url}
-            sx={{ p: 1, flexShrink: 0 }}
+    <AppBar
+      position="fixed"
+      sx={{
+        backgroundColor: '#10162c',
+        height: 80,
+      }}
+    >
+      <Container maxWidth="lg">
+        <Toolbar disableGutters>
+          <img src={logo} alt="logo" />
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: 'flex', md: 'none' },
+              position: 'absolute',
+              right: '0',
+              top: '12px',
+            }}
           >
-            {section.title}
-          </Link>
-        ))}
-      </Toolbar>
-    </>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              sx={{ color: 'white' }}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none', color: 'white' },
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem key={page.title} onClick={handleCloseNavMenu}>
+                  <Link
+                    color="inherit"
+                    noWrap
+                    key={page.title}
+                    variant="body2"
+                    href={page.url}
+                    sx={{ p: 1, flexShrink: 0 }}
+                    target={page.target}
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    {page.title}
+                  </Link>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: {
+                xs: 'none',
+                md: 'flex',
+                justifyContent: 'flex-end',
+                alignItems: 'center',
+              },
+            }}
+          >
+            {pages.map((page) => (
+              <Button
+                key={page.title}
+                onClick={handleCloseNavMenu}
+                sx={{
+                  m: 1,
+                  color: 'white',
+                  display: 'block',
+                  fontWeight: 600,
+                  textTransform: 'capitalize',
+                }}
+                type="link"
+                href={page.url}
+                target={page.target}
+              >
+                {page.title}
+              </Button>
+            ))}
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
   );
 }
-
-// Header.propTypes = {
-//   sections: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       title: PropTypes.string.isRequired,
-//       url: PropTypes.string.isRequired,
-//     })
-//   ).isRequired,
-//   title: PropTypes.string.isRequired,
-// };
-
 export default Header;

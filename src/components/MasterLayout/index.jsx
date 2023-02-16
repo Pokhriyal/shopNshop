@@ -16,7 +16,7 @@ export default function MasterLayout() {
   return (
     <>
       <Header />
-      <Box sx={{ p: 4 }}>
+      <Box sx={{ p: 0 }}>
         {/* <LanddingPageComponent /> */}
         <Outlet />
       </Box>
